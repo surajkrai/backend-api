@@ -30,7 +30,6 @@ public class UserDto {
 	@Email(message = "Provide a valid email address!!")
 	private String email;
 	
-	@JsonIgnore
 	@NotEmpty(message = "Password can't be empty!")
 	private String password;
 	
